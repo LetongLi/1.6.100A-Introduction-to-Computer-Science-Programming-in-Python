@@ -66,25 +66,58 @@ False
 
 ## CONTROL FLOW: while LOOPS
 
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/90daae39-bf02-4acf-aad9-f26a385ca41e)
 
+1. <condition> evaluates to a Boolean
+2. if <condition> is True, do all the steps inside the while code block
+3. check <condition> again
+4. repeat until <condition> is False
+EXAMPLE:
+n = input("You're in the Lost Forest. Go left or right? ")
+while n == "right":
+n = input("You're in the Lost Forest. Go left or right? ")
+print("You got out of the Lost Forest!")
+
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/b11394e3-248b-4e38-8c3d-cdbe2c557c83)
 
 ## CONTROL FLOW: for LOOPS
 
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/da673bac-7336-41bb-bc8e-cade851f2861)
 
-
+1. each time through the loop, <variable> takes a value
+2. first time, <variable> starts at the smallest value
+3. next time, <variable> gets the prev value + 1
+4. etc.
 
 ## for VS while LOOPS
 
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/45989fa4-4fbf-4367-899f-a9e0d91b35c9)
 
 
 ## range(start,stop,step)
+1. default values are start = 0 and step = 1 and optional
+2. loop until value is stop - 1
+Example:
 
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/e9ef85aa-3041-409e-a020-9634a879972d)
 
+Results:
+24
+21
 
 ## break STATEMENT
 
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/e46cd027-8351-4df5-b99b-f0b6e110eeb8)
 
+1. immediately exits whatever loop it is in
+2. skips remaining expressions in code block
+3. exits only innermost loop!
+Example:
 
+![image](https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/41dac77d-ebd7-438e-abbf-83bf0017619f)
+
+Results:
+5
 
 
 
