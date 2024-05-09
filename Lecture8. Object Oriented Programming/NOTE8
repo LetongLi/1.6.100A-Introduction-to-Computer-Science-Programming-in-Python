@@ -1,0 +1,45 @@
+Objects
+an instance of a type
+a data abstraction that captures: (1)an internal representation;(2)an inerface for interacting with the object
+
+Object Oriented Program(OOP)
+can create new objects
+can manipulate
+can destroy 
+
+Creating and using own Types with Classes
+(1)Creating: 
+defining the class name
+defining class attributes
+(2)Using:
+creating new instance of subjects
+doing operations of subjetcs
+
+Class Name/Type(class parent)
+exp. Class Coordinate(object)
+
+Attributes
+data and procedures that belong to the class
+(1)data attributes
+(2)methods: functions/how to interacte with thw class
+
+def _init_(self,x,y)
+special method to create a new instance
+self: place holder/refer to one of the instance in class
+
+How to use a method
+(1)implementing a class:object to call method on.method()
+(2)using the class:name of the class.method()
+
+Print representation of an object
+def _str_(self)
+
+Check Object Type
+isinstance(object,Type)
+exp. isinstance(c,Coordinate)
+
+Special operators
+
+
+
+
