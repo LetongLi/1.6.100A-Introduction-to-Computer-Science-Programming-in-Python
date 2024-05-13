@@ -21,15 +21,15 @@ exp. Class Coordinate(object)
 Attributes
 data and procedures that belong to the class
 (1)data attributes
-(2)methods: functions/how to interacte with thw class
+(2)methods: functions/how to interact with the class
 
 def _init_(self,x,y)
 special method to create a new instance
-self: place holder/refer to one of the instance in class
+self: place holder/refer to one of the instances in class
 
 How to use a method
-(1)implementing a class:object to call method on.method()
-(2)using the class:name of the class.method()
+(1)implementing a class: object to call method on.method()
+(2)using the class: name of the class.method()
 
 Print representation of an object
 def _str_(self)
@@ -39,6 +39,16 @@ isinstance(object,Type)
 exp. isinstance(c,Coordinate)
 
 Special operators
+_add_(self,other) +
+_sub_(self,other) -
+_eq_(self,other) =
+_lt_(self,other) less
+_len_(self)
+_str_(self,other)
+others check python reference
+
+
+
 
 
 
