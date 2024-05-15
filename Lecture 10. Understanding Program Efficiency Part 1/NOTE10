@@ -1,1 +1,61 @@
+How to test the efficiency
+
+Timing
+import time
+def c_to_f(c)
+    return c*9/5+32 [?]
+start clock: to = time.clock()
+call function: c_to_f(100000)
+stop clock: t1 = time.clock()-t0
+Print("t=",t,":",t1,"s,")
+
+Timing can
+evaluate running time varies from algorisms
+Timing can't
+evaluate running time varies from implementations
+evaluate running time varies from computers
+May be unpredictable based on small inputs
+
+Counting operations
+assume the steps take constant time: mathematical operations, comparison, assignments, accessing objects in memory
+can assume the change when the size of the problem changed
+Counting pros
+evaluate running time varies from algorisms
+evaluate running time varies from computers
+can come up with a relationship between inputs and the count.
+Counting cons
+evaluate running time varies from implementations
+no clear definition of what operation to count
+
+Cases
+best case: minimum running time over all possible inputs of a given size
+average case: average running time over all possible inputs of a given size
+worst case: maximum running time over all possible inputs of a given size
+
+Big O notation: Big O notation is a way of comparing rates of growth of different functions.
+drop constants and multiplicative factors
+focus on dominant terms
+
+Types of orders of growth[add image]
+constant
+linear
+quadratic
+logarithmic
+nlogn
+exponential
+
+Law of additions for O(): used with sequential statements
+O(f(n))+O(g(n))=O(f(n)+g(n))
+
+Law of multiplication: used with nested statements/loops
+O(f(n))*O(g(n))=O(f(n)*g(n))
+
+Indirection
+Heterogeneous/arbitrary data: a dataset composed of different data types, structures, formats or sources.
+
+if not 
+tests a condition, and if that condition evaluates to False, the code block under the if not statement executes.
+
+
+
 
