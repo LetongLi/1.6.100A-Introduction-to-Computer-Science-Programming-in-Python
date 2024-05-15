@@ -1,1 +1,42 @@
+name = type (of the class)
+
+how to define a class
+how to create an instance
+
+getters and setters methods
+
+dot notation
+
+Information hiding
+python is not good about hiding information
+allows to access data from outside class definition
+print(a.age)
+allows to write data from outside class definition
+a.age = "infinite"
+allows to create data attributes for an instance from outside class definition
+a.size = "tiny"
+
+default arguments(Revisit later?)
+can be overwritten later, avoid possible error
+
+Inheritance
+Parent class: super class
+Child class: sub class
+inherits all data and behaviors from parent class, adds more info, adds more behaviors, and overrides behaviors.
+if a parent has _init_, a child class may not need one
+
+Bring in other methods 
+import random
+
+Class variables
+defined inside the class and outside the init method.
+
+Methods
+zfill
+
+
+
+
+
+
 
