@@ -21,17 +21,25 @@ Simply remember the location of the piece instead of copying the half list.
 
 # Example of logarithmic search
 
-# Comparison of iterative and recursion search
+# Comparison of iterative and recursion search(-1 each time)
 Both are in the O(n) level. Recursion(need to set up the frame) may be a bit slow yet they have the same order of growth.
+
+# Polynomial 
+Nested loops or recursive calls.
 
 # Exponetial complexity
 
 ## Complexity of Tower of HANOI[?]
 do a recap
+
 <img width="700" alt="截屏2024-05-16 16 06 24" src="https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/1767cb43-49c7-4181-91d3-e5486d062982">
 
-## Power set example
+## Power set example(?)
 Find all possible subsets of a given set of integers(no repeats)
+
+
+# Complexity class(Conclusions)
+
 
 
 
