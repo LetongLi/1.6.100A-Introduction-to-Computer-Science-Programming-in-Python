@@ -10,4 +10,5 @@ still linear.
 
 ### Complexity of the first bisection method
 Other steps of the method can be considered constants.
+<img width="700" alt="截屏2024-05-16 15 24 09" src="https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/78a7bd12-3622-4fb9-abc3-638c79dff749">
 
