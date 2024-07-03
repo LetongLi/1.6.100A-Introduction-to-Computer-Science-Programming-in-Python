@@ -47,6 +47,16 @@ SORT + K*O(logn) < K*O(n)
 
 ## Merge sort
 
+Divide and conquer.
+1. Split the list in half until reaching the smallest pieces in each branch.
+2. Compare and sort the pieces.
+3. Merge and compare the smallest in two pieces.
+4. Append the rest after comparison.
+
+<img width="650" alt="截屏2024-07-03 09 46 40" src="https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/deedfc60-9ac8-4749-b39a-be8615406fed">
+
+<img width="650" alt="截屏2024-07-03 09 47 00" src="https://github.com/LetongLi/1.6.100A-Introduction-to-Computer-Science-Programming-in-Python/assets/144520045/4062e650-087c-4ef1-a80e-d8ecd886a77f">
+
 
 
 
